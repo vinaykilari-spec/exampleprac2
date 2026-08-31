@@ -16,5 +16,6 @@ models:
      - name: email 
        tests: 
           - unique
+          - not_null
        
           
